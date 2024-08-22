@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="File Download">
+        <lightning-input type="text"  placeholder="Enter the File ID here..."
+            data-id="file_id" onchange={handleInput}>
+        </lightning-input>
+        <lightning-button variant="brand" label="Download" title="Primary action" onclick={handleDownloadClick} class="slds-m-left_x-small">
+        </lightning-button>
+    </lightning-card>
+</template>
